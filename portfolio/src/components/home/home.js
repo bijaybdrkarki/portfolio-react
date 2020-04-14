@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../navbar';
+import Navbar from '../navbar/navbar';
 import video from '../../img-video/Source-Code.mp4'
 import "./home.css"
 
