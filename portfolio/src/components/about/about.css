@@ -1,0 +1,27 @@
+.slide1{
+    background-image: url('../../img-video/nepal.jpeg');
+    
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.8;
+  }
+.slide2{
+    background-image: url('../../img-video/nepal2.jpeg');
+   
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.8;
+}
+.slide3{
+    background-image: url('../../img-video/toronto.jpg');
+   
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.8;
+}
