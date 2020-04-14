@@ -1,0 +1,50 @@
+.navbar
+{
+    padding: 1em 1em 1em 3em;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: 2;
+    width: 100%;
+    box-sizing: border-box;
+}
+.your-text
+{
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-areas: "log men";
+}
+.logo
+{
+    grid-area: log;
+    background: transparent;
+}
+.logo img
+{
+    max-height: 100px;
+    display: block;
+}
+.menu
+{
+    grid-area: men;
+    vertical-align: middle;
+    margin: 1.75em 0.75em;
+}
+.menu ul
+{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly; 
+    list-style-type: none;
+}
+.menu li a
+{
+    font-size: 1em;
+    font-weight: 400;
+    color: white; 
+    letter-spacing: 3px; 
+    text-decoration: none;
+}
+  
+  
