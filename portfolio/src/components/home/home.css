@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Purple+Purse&display=swap');
+
+#myVideo 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: fill;
+    width: 100%; 
+    height: 100vh;
+}
+.videoSection
+{
+    position: absolute;
+    top: 40vh;
+    left: 3em;
+    color:white;
+    
+}
+.videoSection h1
+{
+    margin: 0;
+    font-size: calc(100vw / 20 );
+    font-family: 'Purple Purse', cursive;
+    letter-spacing: 4px;
+}
+  
