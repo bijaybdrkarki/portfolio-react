@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../img-video/logo.png';
+import logo from '../../img-video/logo.png';
 import {Link} from 'react-router-dom';
 import './navbar.css';
 
