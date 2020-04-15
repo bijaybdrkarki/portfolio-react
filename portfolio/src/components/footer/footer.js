@@ -26,8 +26,8 @@ const Footer = ()=> {
                 </ul>
             </div>
             <div className={styles.icon}>
-                <Link to='#' target="_blank"><i className="fab fa-facebook-square" id={styles.f}></i></Link>
-                <Link to='//www.instagram.com/bj.bdr.karki/' target="_blank"><i className="fab fa-instagram" id={styles.i}></i></Link>
+                <Link to='//www.facebook.com/bijay.bahadur.karki' target="_blank"><i className="fab fa-facebook-square" id={styles.f}></i></Link>
+                <Link to='//www.instagram.com/bijay.bdr.karki/' target="_blank"><i className="fab fa-instagram" id={styles.i}></i></Link>
                 <Link to='//github.com/bijaybdrkarki' target="_blank"><i className="fab fa-github" id={styles.t}></i></Link>
                 <Link to='//www.linkedin.com/in/bijay-bahadur-karki/' target="_blank"><i className="fab fa-linkedin-in" id={styles.in}></i></Link>
                 <Link to='#' target="_blank"><i className="fab fa-youtube" id={styles.y}></i></Link>
