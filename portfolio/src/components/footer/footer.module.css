@@ -9,7 +9,10 @@
 .footer h1{
     margin-top: 0;
     font-size: calc(100vw / 23 );
-    font-family: 'Purple Purse', cursive;
+    font-family: kepler-std-semicondensed-dis;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 .menu ul, .terms ul{
     padding: 0;
@@ -70,7 +73,7 @@
   background-color: #3b5998;
 }
 #t:hover{
-    background-color: #1da1f2;
+    background-color: black;
 }
 #i:hover{
     background: #d6249f;
