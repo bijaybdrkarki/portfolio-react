@@ -24,7 +24,11 @@ const About= ()=> {
                 <div className={styles.slide1}></div>
                 <div className={styles.slide2}></div>
                 <div className={styles.slide3}></div>
-            </Slider>           
+            </Slider>   
+            <section className={styles.slideSection}>
+                <h1>KNOW ME &</h1>
+                <h1>I WILL KNOW YOU.</h1>
+            </section>        
            
         </header>  
         <Footer /> 
