@@ -64,7 +64,7 @@ const Navbar = () => {
                         <li><Link to='#'>CODE STATION</Link></li>
                         <li><Link to='/about'>ABOUT</Link></li>
                         <li><Link to='#'>PROJECTS</Link></li>
-                        <li><Link to='#'>CONNECT</Link></li>
+                        <li><Link to='/connect'>CONNECT</Link></li>
                     </ul>
                 </div>
             </div>
