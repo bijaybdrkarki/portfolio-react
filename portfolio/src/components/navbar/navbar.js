@@ -60,6 +60,7 @@ const Navbar = () => {
                 </div>
                 <div className={open}>
                     <ul>
+                        <li className="notVisible"><Link to='/'>HOME</Link></li>
                         <li><Link to='#'>CODE STATION</Link></li>
                         <li><Link to='/about'>ABOUT</Link></li>
                         <li><Link to='#'>PROJECTS</Link></li>
