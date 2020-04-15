@@ -31,7 +31,8 @@
 }
 .connect
 {
-    background: transparent;
+    background-color: transparent;
+    transition: background-color 0.5s ease;
     border: 1px solid rgb(221, 88, 88);
     color: white;
     padding: 20px 34px;
@@ -45,7 +46,8 @@
 }
 .connect:hover
 {
-    background-color:  rgb(221, 88, 88) ;
+    background-color:  rgb(221, 88, 88);
+    color: black;
 }
 
 @media screen and (min-width: 640px) {
