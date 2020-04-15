@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 import Home from "./components/home/home";
 import About from "./components/about/about"
+import Connect from "./components/connect/connect"
 
 const App = ()=> {
   
@@ -10,7 +11,8 @@ const App = ()=> {
     <Router>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} /> 
+        <Route path="/about" component={About} />
+        <Route path="/connect" component={Connect} /> 
       </Switch>
     </Router>
   )
