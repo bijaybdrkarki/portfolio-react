@@ -1,9 +1,10 @@
 import React from 'react';
 import Navbar from '../navbar/navbar';
-import "./about.css"
+import Footer from '../footer/footer'
+import styles from "./about.module.css"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
-// import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css"; (did not used this defualt theme given by react)
 import './slick-theme.css'
 //used own customized slick-theme.css instead of css given by react-slick
 
@@ -16,15 +17,18 @@ const About= ()=> {
         autoplaySpeed: 5000 
       };
     return (
+        <>
         <header>
-             <Navbar />
+            <Navbar />
             <Slider {...settings}> 
-                <div className="slide1"></div>
-                <div className="slide2"></div>
-                <div className="slide3"></div>
+                <div className={styles.slide1}></div>
+                <div className={styles.slide2}></div>
+                <div className={styles.slide3}></div>
             </Slider>           
            
-        </header>          
+        </header>  
+        <Footer /> 
+        </>       
     )
 
 }

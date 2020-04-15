@@ -1,17 +1,17 @@
 import React from 'react';
 import logo from '../../img-video/logo.png';
 import {Link} from 'react-router-dom';
-import './navbar.css';
+import styles from './navbar.module.css';
 
 const Navbar = () => {
 
     return (    
-        <div className="navbar">
-            <div className="your-text">
-                <div className="logo">
+        <div className={styles.navbar}>
+            <div className={styles.yourText}>
+                <div className={styles.logo}>
                     <Link to='/'><img src={logo} alt="logo" /></Link>
                 </div>
-                <div className="menu">
+                <div className={styles.menu}>
                     <ul>
                         <li><Link to='#'> CODE STATION </Link></li>
                         <li><Link to='/about'>ABOUT</Link></li>
