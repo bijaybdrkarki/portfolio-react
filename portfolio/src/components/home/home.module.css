@@ -14,7 +14,7 @@
 .videoSection
 {
     position: absolute;
-    top: 40vh;
+    top: 55vh;
     left: 3em;
     color:white;
     
@@ -26,11 +26,38 @@
     font-family: 'Purple Purse', cursive;
     letter-spacing: 4px;
 }
+.videoSection a{
+    margin-top: 1.5em;
+}
+.connect
+{
+    background: transparent;
+    border: 1px solid rgb(221, 88, 88);
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.connect:hover
+{
+    background-color:  rgb(221, 88, 88) ;
+}
 
 @media screen and (min-width: 640px) {
 #myVideo{
     height: 100vh;
     padding-top: 0;
 }
+.videoSection{
+    top: 45vh;
+}
+.videoSection h1{
+    font-size: calc(100vw / 22 );
+} 
 
 }
