@@ -20,11 +20,12 @@ return (
             <h1>WEB DESIGN &</h1>
             <h1>DEVELOPMENT ?</h1>
             <Link to="/connect" className={styles.connect}>LET'S CONNECT</Link> 
-        </section>
-
-        
+        </section> 
     </header>
+    <main>
     <p>this main body</p>
+    </main>
+    
     <Footer />
     </>
 )}
