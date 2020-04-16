@@ -5,6 +5,7 @@
     background-size: cover;
     background-position: center center;
     opacity: 0.8;
+    filter: brightness(50%);
 }
 .connectSection
 {
@@ -20,11 +21,154 @@
     font-family: 'Purple Purse', cursive;
     letter-spacing: 4px;
 }
-
+.main
+{
+    margin: 7.5% 5%;
+}
+.connectArticle
+{
+    border: 1px solid rgb(221, 88, 88);
+    padding: 5%;
+    margin: 1em 0;
+}
+.connectArticle:hover
+{
+    border: 1px solid black;
+    background-color: black;
+    color:white;
+}
+.connectArticle h1
+{
+    font-family: kepler-std-semicondensed-dis;
+    font-size: calc(100vw/15);
+    font-weight: 600;
+    padding-bottom: 0.5em
+}
+.connectArticle p
+{
+    margin-bottom: calc(100vw/7.5);
+    line-height: 1.5;
+}
+.connectArticle a
+{
+    text-decoration: none;
+    color: rgb(221, 88, 88);
+    display: block; 
+    padding-bottom: 2em;
+    font-size: calc(100vw/30);
+}
+.connectDirect
+{
+    margin: 5% 5%;
+}
+.connectDirect article
+{
+    border: 1px solid rgb(221, 88, 88);
+    padding: 5%;
+    margin: 1em 0;
+}
+.connectDirect article h1
+{
+    font-family: kepler-std-semicondensed-dis;
+    font-size: calc(100vw/15);
+    font-weight: 600;
+    padding-bottom: 0.5em
+}
+.connectDirect article p
+{
+    margin-bottom: calc(100vw/20);
+    line-height: 1.5;
+    font-size: calc(100vw/30);
+    text-align: left;
+}
+.connectDirect article span
+{
+    padding: 0 0.15em;
+    padding-bottom: 0.0009em;
+    border-bottom: 1px solid black;
+}
+.connectDirect article span:hover
+{
+    color: grey;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+}
+.location
+{
+    background-image: url('../../img-video/location.png');
+    background-repeat: no-repeat;
+    min-height: 40em;
+    background-size: cover;
+    background-position: center center;
+    /* opacity: 0.8; */
+    filter: brightness(80%);
+}
+.google
+{
+    font-weight: 600;
+    position: absolute;
+    bottom: 0.1em;
+    left: 0.1em;
+}
+.map
+{
+    position: absolute;
+    bottom: 0.1em;
+    right: 0em;
+}
+.map p
+{
+    background-color: grey;
+    width: fit-content;
+    display: inline-block;
+    margin-right:1px;
+    padding: 0 5px;
+    font-size: calc(100vw/50);
+    
+}
 @media screen and (min-width: 640px) {
 
-    .connectSection{
+    .connectSection
+    {
         top: 40vh;
     }
-    
+    .main
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
     }
+    .connectArticle h1
+    {
+        font-size: calc(100vw/24);  
+    }
+    .connectArticle a 
+    {
+        font-size: calc(100vw/40);
+    }
+    .map p
+    {
+        font-size: calc(100vw/60);  
+    }
+
+}
+
+@media screen and (min-width: 840px) {
+
+    .main
+    {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .connectArticle h1
+    {
+        font-size: calc(100vw/39);  
+    }
+    .connectArticle a 
+    {
+        font-size: calc(100vw/60);
+    }
+    .map p
+    {
+        font-size: calc(100vw/80);  
+    }
+}
