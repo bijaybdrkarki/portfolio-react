@@ -8,10 +8,12 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "classnames": "^2.2.6",
+    "gsap": "^3.2.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "react-slick": "^0.25.2",
+    "react-use": "^14.1.1",
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
