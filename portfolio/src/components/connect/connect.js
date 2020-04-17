@@ -19,12 +19,12 @@ const Connect= ()=> {
         <main className={styles.main}>
             <article className={styles.connectArticle}>
                 <h1>Code Station Support</h1>
-                <p>Made a purchase of code from code Station earlier and have an issue or you need to re-download the code? You have come the right place.</p>
+                <p>Made a purchase of code from code Station earlier and have an issue or you need to re-download code? You have come the right place.</p>
                 <a href="/connect/support">SEND TICKET</a>
             </article>
             <article className={styles.connectArticle}>
                 <h1>Hire a Developer</h1>
-                <p>Are you looking for a Web developer? Or do you need some consulting or training? Send an inquiry or just call 555-555-5555.</p>
+                <p>Are you looking for a Web developer? Or do you need some consulting or training ? Send an inquiry text/email or just call 555-555-5555.</p>
                 <a href="/connect/support">SEND INQUIRY</a>
             </article>
             <article className={styles.connectArticle}>
