@@ -53,20 +53,52 @@
   width: calc(100vw);
   justify-self: center;
 }
-.aboutText h1
+.aboutText h1, .strength h1
 {
     font-family: kepler-std-semicondensed-dis;
     font-size: calc(100vw/15);
     font-weight: 600;
     padding-bottom: 0.5em 
 }
-.aboutText p
+.aboutText p, .strength p
 {
     margin-bottom: calc(100vw/20);
     line-height: 1.5;
     font-size: calc(100vw/40);
     text-align: justify;
 }
+.strength
+{
+    margin : 10% 10%;
+}
+.strength h1
+{
+    font-size: calc(100vw/15);
+    text-align: center;
+}
+.seeResume{
+    margin: 0 auto;
+    width: fit-content
+}
+.seeResume a{
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+    border: 1px solid rgb(221, 88, 88);
+    color: black;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.seeResume:hover
+{
+    background-color:  rgb(221, 88, 88);
+}
+
 
 @media screen and (min-width: 640px) {
 
@@ -82,9 +114,14 @@
 {
     font-size: calc(100vw/24); 
 }
-.aboutText p
+.aboutText p, .strength p
 {
     font-size: calc(100vw/40); 
+}
+.strength h1
+{
+    font-size: calc(100vw/18);
+    text-align: center;
 }
 }
 @media screen and (min-width: 840px) 
@@ -93,8 +130,8 @@
     {
         width: 300px;
     }
-    .aboutText p
-{
-    font-size: calc(100vw/55); 
-}
+    .aboutText p, .strength p
+    {
+        font-size: calc(100vw/55); 
+    }
 }
