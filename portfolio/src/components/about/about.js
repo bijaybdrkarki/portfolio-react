@@ -86,6 +86,11 @@ const About= ()=> {
                 <Link to="/resume">View Resume <i class="fas fa-arrow-right"></i></Link>
             </div> 
         </section>
+        <section>
+            <h1>My Instagram</h1>
+            
+
+        </section>
         <Footer /> 
         </>       
     )
