@@ -53,7 +53,7 @@
   width: calc(100vw);
   justify-self: center;
 }
-.aboutText h1, .strength h1
+.aboutText h1, .strength h1, .meSection h1
 {
     font-family: kepler-std-semicondensed-dis;
     font-size: calc(100vw/15);
@@ -71,16 +71,16 @@
 {
     margin : 10% 10%;
 }
-.strength h1
+.strength h1, .meSection h1
 {
     font-size: calc(100vw/15);
     text-align: center;
 }
-.seeResume{
+.seeResume, .followInsta{
     margin: 0 auto;
     width: fit-content
 }
-.seeResume a{
+.seeResume a, .followInsta a{
     background-color: transparent;
     transition: background-color 0.5s ease;
     border: 1px solid rgb(221, 88, 88);
@@ -94,10 +94,30 @@
     margin: 4px 2px;
     cursor: pointer;
 }
-.seeResume:hover
+.seeResume:hover, .followInsta:hover
 {
     background-color:  rgb(221, 88, 88);
 }
+.meSection
+{
+    padding : 7.5% 7.5%;
+    background-color: rgb(241, 241, 241);
+}
+.myImg
+{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.myImg img
+{
+    width: 85%;
+    margin: 1em auto;
+    padding: 5px;
+    border: 0.5px solid black;
+    border-radius: 0.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.45);
+}
+
 
 
 @media screen and (min-width: 640px) {
@@ -118,10 +138,15 @@
 {
     font-size: calc(100vw/40); 
 }
-.strength h1
+.strength h1, .meSection h1
 {
     font-size: calc(100vw/18);
     text-align: center;
+}
+.myImg
+{
+   display: grid;
+   grid-template-columns: 1fr 1fr;   
 }
 }
 @media screen and (min-width: 840px) 
@@ -133,5 +158,9 @@
     .aboutText p, .strength p
     {
         font-size: calc(100vw/55); 
+    }
+    .myImg
+    {
+    grid-template-columns: 1fr 1fr 1fr;    
     }
 }
