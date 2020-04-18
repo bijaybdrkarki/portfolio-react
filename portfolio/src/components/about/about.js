@@ -75,7 +75,7 @@ const About= ()=> {
                 <h1>About Myself</h1>
                 <p>
                     These are something that resume can not explain. I love to drink Tea/coffee alot.
-                    My favorite number is 2 because 1/top is easy to get and very hard to maintain. Also 2nd makes you work hard. I enjoy watching football (soccer) sepcially premier league <i class="far fa-futbol"></i>. And I love to play FIFA. Lastly, i love to discuss in person and solve the problem.
+                    My favorite number is 2 because 1/top is easy to get and very hard to maintain. Also 2nd makes you work hard. I enjoy watching football (soccer) sepcially premier league <i className="far fa-futbol"></i>. And I love to play FIFA. Lastly, i love to discuss in person and solve the problem.
                 </p> 
             </div>       
         </section>
@@ -83,13 +83,22 @@ const About= ()=> {
             <h1> Know My Strength & How I can assists you </h1>
             <p>How about looking more into what i have done in past few years and think how working with me be fruitfull to you. My resume is standarized to this particular area but please remember that resume doesnot explain everything about that person.</p>
             <div className={styles.seeResume}>
-                <Link to="/resume">View Resume <i class="fas fa-arrow-right"></i></Link>
+                <Link to="/resume">View Resume <i className="fas fa-arrow-right"></i></Link>
             </div> 
         </section>
-        <section>
-            <h1>My Instagram</h1>
-            
-
+        <section className={styles.meSection}>
+            <h1>My Few Images</h1>
+            <div className={styles.myImg}> 
+                <img src={require('../../img-video/IMG_2.jpg')} alt="me" />
+                <img src={require('../../img-video/IMG_3.jpg')} alt="me" />
+                <img src={require('../../img-video/IMG_4.jpg')} alt="me" />
+                <img src={require('../../img-video/IMG_5.jpg')} alt="me" />
+                <img src={require('../../img-video/IMG_6.jpg')} alt="me" />
+                <img src={require('../../img-video/IMG_1.jpg')} alt="me" />            
+            </div>
+            <div className={styles.followInsta}>
+                <Link to='//www.instagram.com/bijay.bdr.karki/' target="_blank">Follow on Instagram <i className="fas fa-arrow-right"></i></Link>
+            </div>
         </section>
         <Footer /> 
         </>       
