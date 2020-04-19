@@ -1,0 +1,114 @@
+.background{
+    background-image: url('../../img-video/projects.jpeg');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.8;
+    filter: brightness(50%);
+}
+.projectSection
+{
+    position: absolute;
+    top: 53vh;
+    left: 3em;
+    color:white;  
+}
+.projectSection h1
+{
+    margin: 0;
+    font-size: calc(100vw / 21 );
+    font-family: 'Purple Purse', cursive;
+    letter-spacing: 4px;
+}
+.heading
+{
+    margin : 10% 10%;
+}
+.heading h1, .allprojects h1
+{
+    font-family: kepler-std-semicondensed-dis;
+    font-weight: 600;
+    padding-bottom: 0.5em; 
+    font-size: calc(100vw/19);
+    text-align: center;
+}
+.heading p
+{
+    margin-bottom: calc(100vw/20);
+    line-height: 1.5;
+    font-size: calc(100vw/40);
+    text-align: justify;
+}
+.allprojects
+{
+    padding: 5% 5%;
+    background-color:  rgb(241, 241, 241);
+}
+.slider
+{
+    margin: 2em 0.5em;
+}
+.slider img{
+    width: 100%;
+    height: auto;
+} 
+.slider h2
+{
+    display: inline-block;
+    font-weight: 500;
+    padding-bottom: 0.5em;
+    padding-right: 0.5em; 
+    font-size: calc(100vw/25);
+    text-align: left;
+}
+.slider a{
+    color: black;
+}
+.slider a:hover{
+    color: rgb(221, 88, 88);
+    
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 640px) {
+
+    .projectSection
+    {
+        top: 40vh;
+    }
+    .heading h1
+    {
+        font-size: calc(100vw/19);
+        text-align: center;
+    }
+    .heading p
+    {
+        font-size: calc(100vw/35); 
+    }
+    .slider h2
+    {
+        font-size: calc(100vw/30);
+    }
+    
+}
+
+
+@media screen and (min-width: 901px) {
+
+    .heading p
+    {
+        font-size: calc(100vw/50); 
+    }
+    
+    .slider h2
+    {
+        font-size: calc(100vw/35);
+    }
+    
+}
