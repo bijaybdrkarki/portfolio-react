@@ -1,0 +1,136 @@
+.background{
+    background-image: url('../../img-video/resume.jpeg');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.8;
+    filter: brightness(50%);
+}
+.resumeSection
+{
+    position: absolute;
+    top: 53vh;
+    left: 3em;
+    color:white;  
+}
+.resumeSection h1
+{
+    margin: 0;
+    font-size: calc(100vw / 21 );
+    font-family: 'Purple Purse', cursive;
+    letter-spacing: 4px;
+}
+.resume
+{
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+    border: 1px solid rgb(221, 88, 88);
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.resume:hover
+{
+    background-color:  rgb(221, 88, 88);
+    color: black;
+}
+.skills
+{
+    background:  rgb(241, 241, 241);
+    padding : 7.5% 7.5%;
+}
+.skills h1
+{
+    font-family: kepler-std-semicondensed-dis;
+    font-size: calc(100vw/15);
+    font-weight: 600;
+    padding-bottom: 0.5em 
+}
+
+.software li 
+{
+    font-size: calc(100vw/40);
+    margin: 1em 0;
+}
+.nowConnect
+{
+    padding : 5% 5%;
+    background:  rgb(241, 241, 241);
+}
+.nowConnect h1
+{
+    font-family: kepler-std-semicondensed-dis;
+    font-size: calc(100vw/15);
+    font-weight: 600;
+    padding-bottom: 0.5em
+}
+.nowConnect p
+{
+    line-height: 1.5;
+    font-size: calc(100vw/30);
+    margin-bottom: calc(100vw/20);
+}
+.sendrequest
+{
+    margin: 0 auto;
+    width: fit-content
+}
+.sendrequest a
+{
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+    border: 1px solid rgb(221, 88, 88);
+    color: black;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.sendrequest:hover
+{
+    background-color:  rgb(221, 88, 88);
+}
+
+@media screen and (min-width: 640px) 
+{
+    .nowConnect h1
+    {
+        font-size: calc(100vw/18);  
+    }
+    .nowConnect p
+    {
+        font-size: calc(100vw/35);
+    }
+}
+@media screen and (min-width: 840px) 
+{
+    .skills
+    {
+        display: grid;
+        grid-template-columns: 0.8fr 1fr 0.5fr;
+    }
+    .skills h1
+    {
+        font-size: calc(100vw/25);;
+    }
+    .software li
+    {
+        font-size: calc(100vw/50);
+    }
+    .nowConnect p
+    {
+        font-size: calc(100vw/40);
+    }
+    
+}
