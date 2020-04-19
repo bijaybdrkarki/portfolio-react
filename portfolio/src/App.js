@@ -5,6 +5,7 @@ import Home from "./components/home/home";
 import About from "./components/about/about"
 import Connect from "./components/connect/connect"
 import Resume from "./components/resume/resume"
+import Projects from "./components/projects/projects"
 
 const App = ()=> {
   
@@ -14,7 +15,8 @@ const App = ()=> {
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
         <Route path="/connect" component={Connect} />
-        <Route path="/resume" component={Resume} /> 
+        <Route path="/resume" component={Resume} />
+        <Route path="/projects" component={Projects} /> 
       </Switch>
     </Router>
   )
