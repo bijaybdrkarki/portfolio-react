@@ -184,7 +184,7 @@ const Resume = ()=> {
         </main>
         <section className={styles.nowConnect}>
             <h1> Your Thoughts Now ? </h1>
-            <p>Did you liked my resume and work experince ? How about we work together now. Let's connect now </p>
+            <p>Did you liked my resume and work experience ? How about we work together now. Let's connect now </p>
             <div className={styles.sendrequest}>
                 <Link to="/connect">Connect Now<i className="fas fa-arrow-right"></i></Link>
             </div> 
