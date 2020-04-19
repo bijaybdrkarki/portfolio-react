@@ -1,0 +1,127 @@
+.class-of{
+    display: grid;
+    justify-items: center;   
+    margin: 2em; 
+  }
+  
+  .personal-basic img{
+    display: block;
+    border-radius: 50%;
+    max-width: 40%;
+    margin: 0.5em auto;
+  }
+  
+  .full-name{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem;
+  }
+  
+  .professional-position{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.2rem;
+  }
+  
+  .personal-contact{
+    display: grid;
+    grid-template-columns: 3em 1em auto;
+  }
+  
+  .personal-contact i{
+    text-align: center;
+  }
+  
+  .vertical-line { 
+    border-left: 1px solid  rgb(221, 88, 88);
+    height: 1.2em; 
+  }
+  
+  .horizontal-line{
+    height: 1px;
+    background-color: rgb(221, 88, 88);
+    border: none;
+  }
+  
+  .paragraph-title{
+    color: #747171;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 1rem; 
+    margin-bottom: 0.5rem;
+  }
+  
+  .group-title{
+    color: #0a192b;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1em;
+  }
+  
+  .paragraph-content{
+    line-height: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .portfolio-link a{
+    color: black;
+    text-decoration: none;
+    padding-bottom: 0.01em;
+    border-bottom: 1px solid black;
+  }
+  
+  .portfolio-link a:hover{
+    color: #747171;  
+  }
+  
+  .personal-social-media{
+    display: grid;
+    grid-template-columns: 2em 2em 2em 2em 2em;
+    padding: 0.5em;
+    font-size: 2em;
+  }
+  .job-position{
+    color: black;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 1.15em;
+    font-weight: 400;
+    margin-top: 1rem; 
+  }
+  
+  .company-name{
+    color: #747171;
+    font-weight: bolder;
+    font-size: 1em;
+    margin-top: 0.3rem; 
+    margin-bottom: 0.5rem;
+  }
+  
+  .title-icon{
+    display: grid;
+    grid-template-columns: 2em auto;
+  }
+
+  .graduation{
+    font-size: 2.5rem;
+  }
+  @media screen and (min-width: 840px) {
+  .student-profile{
+    display: grid;
+    grid-template-columns: 23em  28em;
+    grid-template-areas:  "intro indepth";
+    padding-top: 3em;
+  }
+
+  .student-intro{
+    grid-area: intro;
+  }
+  
+  .student-indepth-detail{
+    grid-area: indepth;
+    padding-left: 5em;
+  }
+}
