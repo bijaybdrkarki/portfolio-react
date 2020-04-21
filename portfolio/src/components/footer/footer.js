@@ -11,7 +11,7 @@ const Footer = ()=> {
             <div className={styles.menu}>
                 <ul>
                     <li><Link to='/'> HOME </Link></li>
-                    <li><Link to='#'> CODE STATION </Link></li>
+                    <li><Link to='/codestation'> CODE STATION </Link></li>
                     <li><Link to='/about'>ABOUT</Link></li>
                     <li><Link to='/projects'>PROJECTS</Link></li>
                     <li><Link to='/resume'> RESUME </Link></li>
