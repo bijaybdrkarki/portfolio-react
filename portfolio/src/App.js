@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 import Home from "./components/home/home";
 import About from "./components/about/about"
+import Codestation from "./components/codestation/codestation"
 import Connect from "./components/connect/connect"
 import Resume from "./components/resume/resume"
 import Projects from "./components/projects/projects"
@@ -13,6 +14,7 @@ const App = ()=> {
     <Router>
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/codestation" component={Codestation} />
         <Route path="/about" component={About} />
         <Route path="/connect" component={Connect} />
         <Route path="/resume" component={Resume} />
