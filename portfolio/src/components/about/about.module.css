@@ -148,6 +148,11 @@
    display: grid;
    grid-template-columns: 1fr 1fr;   
 }
+.myImg img:hover
+{
+    transform: translateY(5px);
+    cursor: pointer; 
+}
 }
 @media screen and (min-width: 840px) 
 {
