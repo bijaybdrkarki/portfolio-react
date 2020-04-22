@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "portfolio": "cd portfolio && npm start",
-    "server": "node server.js"
+    "server": "node server.js",
+    "heroku-postbuild": "cd portfolio && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
