@@ -11,8 +11,8 @@ const Codestation = () =>{
             <Navbar />
             <div className={styles.background}></div> 
             <section className={styles.codestationHeader}>
-                <h1>WEB CODE </h1>
-                <h1>STATION.</h1>
+                <h1>WEB DESIGN &</h1>
+                <h1>CODESTATION.</h1>
             </section>         
         </header> 
         <Footer /> 
