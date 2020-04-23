@@ -29,12 +29,13 @@ const Codestation = () =>{
                     <img src={require('../../img-video/shopify.png')} alt="shopify" />
                     <div className={styles.shopifycenter}>
                         <p>Shopify side card</p>
-                        <Link to='/codestation/sidecart' className={styles.projectlink}>GET IT</Link>
+                        <Link to='/sidecart' className={styles.projectlink}>GET IT</Link>
                     </div>
                 </div>
             </div>
         </section>
         <Footer /> 
+        
         </>       
 )}
 
