@@ -1,0 +1,79 @@
+.background{
+    min-height: 100vh;
+    background-color: rgb(241,241,241);
+    opacity: 0.8;
+    filter: brightness(30%);
+}
+.sidecart
+{
+    position: absolute;
+    top: 53vh;
+    left: 3em;
+    color:white;  
+}
+.sidecart h1
+{
+    margin: 0;
+    font-size: calc(100vw / 21 );
+    font-family: 'Purple Purse', cursive;
+    letter-spacing: 4px;
+    margin-bottom: 2em;
+}
+.description
+{
+    padding: 5% 5%;
+}
+.description img{
+    padding: 1em;
+}
+.description div
+{
+    border: 1px solid rgb(221, 88, 88);
+    padding: 5%; 
+    margin: 1em 1em;  
+}
+.description h2
+{
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+
+}
+.description p{
+    font-size: 1.1em;
+    line-height: 1.3em;
+    text-align: justify;
+    margin-bottom: 1em;
+}
+.projectlink
+{
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+    border: 5px solid rgb(221, 88, 88);
+    color:black;
+    padding: 15px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.projectlink:hover
+{
+    background-color: rgb(221, 88, 88);
+}
+
+@media screen and (min-width: 640px) {
+    .sidecart
+    {
+        top: 40vh;
+    }
+    .description{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+
+}
