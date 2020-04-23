@@ -21,6 +21,62 @@
     font-family: 'Purple Purse', cursive;
     letter-spacing: 4px;
 }
+.allproducts
+{
+    padding: 5% 5%;
+    background-color:  rgb(241, 241, 241);
+}
+.allproducts h1
+{
+    font-family: kepler-std-semicondensed-dis;
+    font-weight: 600;
+    padding-bottom: 0.5em; 
+    font-size: calc(100vw/19);
+    text-align: center;
+}
+.shopify
+{
+    padding: 2.5%; 
+    position: relative;  
+}
+.shopify img
+{ 
+    filter: brightness(35%);
+}
+.shopifycenter
+{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -66px;
+    margin-top: -46px;
+}
+.shopify p
+{
+    color: white;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+.projectlink
+{
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+    border: 5px solid rgb(221, 88, 88);
+    color:white;
+    padding: 15px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.projectlink:hover
+{
+    background-color: rgb(221, 88, 88);
+}
 
 
 
@@ -29,5 +85,20 @@
     .codestationHeader
     {
         top: 40vh;
+    }
+    .product
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+@media screen and (min-width: 901px) {
+
+    .product
+    {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
