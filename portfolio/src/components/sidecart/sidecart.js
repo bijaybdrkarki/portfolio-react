@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import {Link} from 'react-router-dom'
 import Navbar from '../navbar/navbar';
 import Footer from '../footer/footer';
@@ -6,10 +6,7 @@ import styles from './sidecart.module.css'
 
 
 const Sidecart = () => {
-    //cleant up the component when unmount
-    useEffect(()=>{
-        return ()=>{}
-    },[])
+    
     return (
         <>
         <header>
@@ -30,7 +27,7 @@ const Sidecart = () => {
                     <br />• You can give any number of suggested items for customer to add into cart. <br />
                     <br />• Custom css that matches to your store color and buttons are available as well.  <br />
                 </p>
-                <Link to='' className={styles.projectlink}>GET IT NOW</Link>
+                <Link to='//github.com/bijaybdrkarki/Shopify/tree/master/sidecart' target="_blank" className={styles.projectlink}>GET IT NOW</Link>
             </div>
         </section> 
         <Footer />
