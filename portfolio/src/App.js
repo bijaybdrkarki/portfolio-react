@@ -7,6 +7,7 @@ import Codestation from "./components/codestation/codestation"
 import Connect from "./components/connect/connect"
 import Resume from "./components/resume/resume"
 import Projects from "./components/projects/projects"
+import Sidecart from "./components/sidecart/sidecart"
 
 const App = ()=> {
   
@@ -14,7 +15,8 @@ const App = ()=> {
     <Router>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/codestation" component={Codestation} />
+        <Route path="/codestation" exact component={Codestation} />
+        <Route path="/codestation/sidecart" component={Sidecart} />
         <Route path="/about" component={About} />
         <Route path="/connect" component={Connect} />
         <Route path="/resume" component={Resume} />
