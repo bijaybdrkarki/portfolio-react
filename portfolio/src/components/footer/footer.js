@@ -7,7 +7,7 @@ const Footer = ()=> {
 
     return (
         <div className={styles.footer}>
-            <h1>Let me build the Website you need</h1>
+            <h1>Let me build the Website you really want.</h1>
             <div className={styles.menu}>
                 <ul>
                     <li><Link to='/'> HOME </Link></li>
