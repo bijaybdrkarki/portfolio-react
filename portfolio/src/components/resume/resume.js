@@ -75,7 +75,7 @@ const Resume = ()=> {
                     <section>
                         <article>
                             <h4 className="paragraph-title">Intro</h4>
-                            <p className="paragraph-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nobis nisi ut eligendi temporibus harum autem amet fugiat quae. At beatae sunt iusto reiciendis eaque unde nesciunt vero repellendus. Iste</p>
+                            <p className="paragraph-content">Juniour full-stack developer (React.js, node.js)</p>
                         </article>
                         <article>
                             <h4 className="paragraph-title">Major Achievements</h4>
@@ -172,7 +172,7 @@ const Resume = ()=> {
                                 <li className="company-name">Humber College</li>
                             </ul>
                             <p className="paragraph-content">• Extra-ordinary design mock-ups for customers to ensure product quality and client gratification before development phase
-                                <br /> Management of Brands: name, logo, appearance, and design of the web site to get the best revenue.
+                                <br />• Management of Brands: name, logo, appearance, and design of the web site to get the best revenue.
                                 <br />• Heavily involved in every step of web application framework design including: Logo design in Illustrator, creating multiple wireframe design, 
                                         interactive prototypes in Figma or Adobe xD, implementation and usability testing
                                 <br />• Modified photos to be used in websites using Adobe Photoshop, illustrator.
