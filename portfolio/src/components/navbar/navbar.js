@@ -29,7 +29,11 @@ const Navbar = () => {
                 setlogovalue(logo1);
             }
         })
-        return (window.removeEventListener('resize',()=>{}))
+        return (()=>{
+            window.removeEventListener('resize',()=>{})
+            setmenu('menu');
+            setopen('menu');
+        })
     },[])
     
     const [menu, setmenu]= useState('menu')
