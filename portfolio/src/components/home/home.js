@@ -68,6 +68,7 @@ return (
                 </div>
             </div>
         </div>
+        <Link to="/projects" className={styles.codestation}>MORE PROJECTS <i className="fas fa-arrow-right"></i></Link>
     </section>
     <Footer />
     </>
