@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom'
 import Navbar from '../navbar/navbar';
 import Footer from '../footer/footer';
@@ -6,6 +6,10 @@ import video from '../../img-video/Source-Code.mp4'
 import styles from "./home.module.css"
 
 const Home = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])    
 
 return (
     <>

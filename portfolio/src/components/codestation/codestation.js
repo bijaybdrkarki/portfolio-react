@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import Navbar from '../navbar/navbar';
 import Footer from '../footer/footer'
@@ -6,6 +6,9 @@ import styles from "./codestation.module.css"
 
 const Codestation = () =>{
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <>
         <header>

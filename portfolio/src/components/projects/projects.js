@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import styles from './projects.module.css'
 import Navbar from '../navbar/navbar';
@@ -16,6 +16,10 @@ const Projects = ()=> {
         arrows : true,
         infinite: true   
     };
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     
     
     return (

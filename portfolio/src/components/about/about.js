@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom'
 import Navbar from '../navbar/navbar';
 import Footer from '../footer/footer'
@@ -10,6 +10,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 // import "slick-carousel/slick/slick-theme.css"; (did not used this defualt theme given by react)
 import './slick-theme.css'
+import { useEffect } from 'react';
 //used own customized slick-theme.css instead of css given by react-slick
 
 const About= ()=> {
@@ -21,6 +22,9 @@ const About= ()=> {
         autoplaySpeed: 5000 
       };
 
+    useEffect(() => {
+    window.scrollTo(0, 0)
+    }, [])  
     // tried to implement animation on scroll not working till now
 
     // let text = useRef(null);

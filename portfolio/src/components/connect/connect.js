@@ -1,11 +1,13 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Navbar from '../navbar/navbar';
 import Footer from '../footer/footer'
 import styles from "./connect.module.css"
 
 
 const Connect= ()=> {
-    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <>
         <header>
