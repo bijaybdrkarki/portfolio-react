@@ -121,8 +121,10 @@
     text-align: center;
     background-color:  rgb(241, 241, 241);
 }
-
-
+.develop
+{
+ margin-bottom: 3em;
+}
 .airbnb, .shopify
 {
     padding: 2.5%; 
