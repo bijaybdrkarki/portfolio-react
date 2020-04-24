@@ -29,7 +29,7 @@
 .videoSection a{
     margin-top: 1.5em;
 }
-.connect
+.connect, .codestation 
 {
     background-color: transparent;
     transition: background-color 0.5s ease;
@@ -49,6 +49,16 @@
     background-color:  rgb(221, 88, 88);
     color: black;
 }
+.codestation
+{
+    color: black;
+}
+.codestation:hover
+{
+    background-color:  rgb(221, 88, 88);
+    color: white;
+}
+
 .homeSection
 {
     margin-top: -3px;
@@ -64,7 +74,7 @@
   width: calc(100vw);
   justify-self: center;
 }
-.homeText h1
+.homeText h1, .aboutCode h1, .recentproject h1
 {
     font-family: kepler-std-semicondensed-dis;
     font-size: calc(100vw/15);
@@ -78,6 +88,69 @@
     font-size: calc(100vw/40);
     text-align: justify;
 }
+.aboutCode
+{
+    margin : 10% 10%;
+    text-align: center;
+}
+.aboutCode h1
+{
+    font-size: calc(100vw/18);  
+}
+.codetype
+{
+    margin-bottom: 5em;
+}
+.codetype article
+{
+   padding: 1.5em 0; 
+}
+.codetype h2
+{
+    font-size: 1.5em;
+    margin: 16px 0;
+    color: rgb(221, 88, 88);
+}
+.codetype p 
+{
+    font-size: 1.2em;   
+}
+.recentproject
+{
+    padding: 5% 5%;
+    text-align: center;
+    background-color:  rgb(241, 241, 241);
+}
+
+
+.airbnb, .shopify
+{
+    padding: 2.5%; 
+    position: relative;  
+}
+.airbnb img, .shopify img
+{ 
+    filter: brightness(35%);
+}
+.airbnbcenter, .shopifycenter
+{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -46px;
+}
+.airbnbcenter p, .shopify p
+{
+    color: white;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+
+
+
 
 @media screen and (min-width: 640px) 
 {
@@ -90,10 +163,6 @@
     }
     .videoSection h1{
         font-size: calc(100vw / 22 );
-    }
-    .homeSection
-    {
-        grid-gap: 2em; 
     } 
     .homeImg
     {
@@ -107,10 +176,45 @@
     {
         font-size: calc(100vw/40); 
     }
+    .aboutCode h1, .recentproject h1
+    {
+        font-size: calc(100vw/20);
+    }
+    .codetype article
+    {
+        width: 25em; 
+        margin: 0 auto;
+    }
+    .develop
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .airbnb img, .shopify img
+    { 
+        filter: brightness(60%);
+    }
+    .airbnbcenter, .shopifycenter
+    {
+        opacity: 0
+    }
+    .airbnb:hover .airbnbcenter
+    {
+        opacity: 1
+    }
+    .airbnb:hover img, .shopify:hover img
+    {
+        filter: brightness(35%);
+    }
+    .shopify:hover .shopifycenter{
+        opacity: 1
+    }
+    
+    
 }
 
 
-@media screen and (min-width: 840px) 
+@media screen and (min-width: 901px) 
 {
     .homeImg
     {
@@ -120,4 +224,29 @@
     {
         font-size: calc(100vw/55); 
     }
+    .aboutCode h1, .recentproject h1
+    {
+        font-size: calc(100vw/21);
+    }
+    .codetype
+    {
+        display: grid;
+        grid-template-columns: 1fr 1.05fr 1fr;
+        margin-bottom: 8em;
+    }
+    .codetype article
+    {
+        margin-top: 0.5em;
+        padding: 0 1em;
+    }
+    .codetype article
+    {
+        width: auto; 
+    }
+    .airbnb, .shopify
+    {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    
 }
