@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "portfolio": "cd portfolio && npm start",
     "server": "node server.js",
+    "dev": "concurrently \"npm run server\" \"npm run portfolio\"",
     "heroku-postbuild": "cd portfolio && npm install && npm run build"
   },
   "author": "",
